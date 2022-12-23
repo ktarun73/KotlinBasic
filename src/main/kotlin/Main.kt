@@ -1,155 +1,186 @@
+package com.example.myapplication
 
-fun main(){
-//    println("Hello World")
-//    val i:Byte =123
-//    println(i.toString())
-//
-//    val myStr="Hello"
-//    val firstCharInStr=myStr[0]
-//    println(firstCharInStr)
+fun main() {
+    // Variables
+//    print("Hello World")
+//    val name="Tarun"
+//    print("My name is $name")
+//    println(name[name.length-1])
+//    var myStr: String = "Android Masterclass"
+//    val myFloat: Float = 13.3F
+//    var myDouble: Double = 3.14159265358979
+//    var myByte: Byte= 25
+//    var myInt: Int = 2020
+//    var myLong : Long = 18881234567
+//    var myBoolean : Boolean = true
+//    var myChar : Char = 'a'
 
-//    val a=12
-//    val b=10
-//    val c=a+b
-//    val d:Float= (a.toFloat()/b.toFloat())
-//    println("$c\n$d")
+    // Arithmetic Operators(+ - * / %)
+//    val a=10
+//    val b=3
+//    val res=a+b
+//    print("$res")
+//    val mod=a%b
+//    print("$mod")
 
-//    val isEqual= 5==3
-//    println("isEqual is $isEqual")
-
-//    println("is 5 greater than 3 : ${5>3}")
+    //Comparison Operator (== != < > <= <=)
 
 //    val a=10
-//    val b=12
-//    if (a>b){
-//        println("a is greater")
-//    }else if (a<b){
-//        println("b is greater")
+//    val b=20
+//
+//    val isEqual=a==b
+//    println("$isEqual")
+//    val isNotEqual = a!=b
+//    println("$isNotEqual")
+//    println( "isGreater : ${a>b}")
+//    println("isSmaller : ${a<b}")
+
+    // Increment / Decrement Operator (++ --)
+
+//    var num=10
+//    println("${num++}")
+//    println("${++num}")
+//    println("${num--}")
+//    println("${--num}")
+
+    // IF / Else
+
+//    var age=30
+//    if (age>=18){
+//        println("You may drive now")
+//    }
+//    else if (age>=23) {
+//        println("You may Drink now")
 //    }
 //    else{
-//        println("equal")
+//        println("You are too young")
 //    }
 
-//    var name="Tarun"
-//    if(name=="Tarun") {
-//        println("Tarun")
-//    }
-//    else{
-//        println("qwerty")
-//    }
-
-//     val season=3
+    //When
+//    var season=3
 //    when(season){
-//        1 -> println("spring")
+//        1 -> println("Spring")
 //        2 -> println("Summer")
 //        3 -> {
 //            println("Fall")
 //            println("Autumn")
 //        }
 //        4 -> println("Winter")
-//        else -> println("Invalid")
+//        else -> println("Invalid season")
 //    }
 
-//    val month=3
-//    when(month){
-//        in 3..5 -> println("Spring")
-//        in 6..8 -> println("Summer")
-//        in 9..11 -> println("Fall")
-//        12, 1, 2 -> println("Winter")
-//        else -> println("Invalid")
-//    }
-
-//    val x : Any = 13.12
+//    var x: Any ="10"
 //    when(x){
 //        is Int -> println("Integer")
 //        is Double -> println("Double")
-//        is Float -> println("Float")
-//        else -> println("None of above")
+//        is String -> println("String")
+//        else -> println("None of the above")
 //    }
+
+//    var x: Any ="10"
+//    var res= when(x){
+//        is Int -> "Integer"
+//        is Double -> "Double"
+//        is String -> "String"
+//        else -> "None of the above"
+//    }
+//    println(res)
+
+    //Loops
+    // while / do-while
 
 //    var a=1
 //    while (a<=10){
-//        print("$a ")
+//        println(a)
 //        a++
 //    }
-//    var a=1
+//    var z=10
 //    do {
-//        print("$a")
-//        a++
-//    }while(a<=10)
+//        println(z)
+//        z--
+//    }while (z>=1)
+    //For
 
-
-//    for(num in 1..10){
-//        println("$num")
+//    for (i in 1..10){
+//        println(i)
 //    }
-
+//    println()
+//    println()
+//    println()
+//    println()
+//    for(i in 1 until 10){
+//        println(i)
+//    }
+//    println()
+//    println()
+//    println()
+//    println()
+//
+//    for (i in 10 downTo 1){
+//        println(i)
+//    }
+//
+//    println()
+//    println()
+//    println()
+//    println()
+//
+//    for(i in 1 until 10 step 2){
+//        println(i)
+//    }
+//    println()
+//    println()
+//    println()
+//    println()
+//
 //    for(i in 10 downTo 1 step 2){
-//        print("$i ")
+//        println(i)
 //    }
 
-//    for(i in 0..10000){
-//        print("$i ")
-//        if(i>9000){
-//            print("Over 9000")
-//            break
+
+//    for(i in 0 until 10000){
+//        if(i==9001){
+//            println("Its over 9000")
 //        }
 //    }
 //
-//
-//    var humidity = "humid"
 //    var humidityLevel = 80
-//    while(humidity=="humid"){
+//    var humidity = "humid"
+//    while (humidityLevel>60){
 //        humidityLevel-=5
-//        println("humidity decreased")
-//        if(humidityLevel<60){
-//            println("Its comfy now")
+//        if(humidityLevel==60){
 //            humidity="comfy"
 //        }
 //    }
-//
-//
 //    println(humidity)
-//    myFunc()
-//    myFunc()
-//    println(add(10,20))
-//    println(avg(10.0,20.0))
-//    var name: String="Tarun"
+
+    // Nullables
+
+//    var name : String = "Hello"
 //    name=null
-
-//     var nullableName : String? ="Tarun"
+//    var nullableName: String? = "Hello"
 //    nullableName=null
+
+//    var len=name.length
 //    var len2=nullableName?.length
-//    var str=nullableName?.toLowerCase()
-//    println(nullableName?.toLowerCase())
+//    nullableName?.let { println(it.length) }
+//    nullableName?.let { println(it.length) }
 
-//    if(nullableName!=null){
-//        var len=nullableName.length
-//    }else{
-//        null
-//    }
-    var nullableName: String?="Tarun"
+//    print(nullableName?.length)
+
+//    var a : String?=null
+//    val len=a.length
+
+//    var age: Int?=null
+//    val str = age?:"Invalid"
+//    println("Age is $str")
+
+    var nullableName : String? = "Tarun"
 //    nullableName=null
-//    val len=name?.length
-//    name?.let {  println(it.length) }
-    var name=nullableName ?: "Guest"
+//    println(nullableName?.length)
+
+    var name = nullableName?: "Guest"
     println("name is $name")
-
-    nullableName!!.toLowerCase()
-
-
-
 
 
 }
-
-//fun myFunc(){
-//    print("called from myFunc")
-//}
-
-//fun add(a: Int,b:Int) : Int{
-//    return a+b
-//}
-
-//fun avg(a: Double,b: Double): Double{
-//    return (a+b)/2
-//}
