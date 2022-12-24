@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
 
 //        Node node=new Node(-1);
@@ -9,9 +10,10 @@ public class Main {
 //        node.add(5);
 //        node.print();
 
-        String s1="Tarun";
-        String s2=new String("Tarun");
-        System.out.println(s1==s2);
+//        String s1="Tarun";
+//        String s2=new String("Tarun");
+//        System.out.println(s1==s2);
+
     }
 //    static class Node{
 //        Node head;
